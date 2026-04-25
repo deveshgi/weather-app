@@ -17,7 +17,7 @@ function getWeather() {
     return;
   }
 
-  const apiKey = "a9070d16957a4d28b04182004252106";
+  const apiKey = "enter-your-api-key";
   const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
 
   loader.classList.remove("hidden");
