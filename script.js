@@ -18,7 +18,7 @@ function getWeather() {
   }
 
   const apiKey = "a9070d16957a4d28b04182004252106";
-  const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
 
   loader.classList.remove("hidden");
   weatherBox.classList.add("hidden");
